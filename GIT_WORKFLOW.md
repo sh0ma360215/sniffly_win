@@ -2,7 +2,7 @@
 
 ## リポジトリ構成
 
-- **メインリポジトリ**: `handydigital-dev/sniffly` (組織の公式リポジトリ)
+- **メインリポジトリ**: `Handydigital-dev/sniffly` (組織の公式リポジトリ)
 - **個人リポジトリ**: `sh0ma360215/sniffly_win` (個人開発用フォーク)
 
 ## 推奨されるワークフロー
@@ -11,13 +11,13 @@
 
 ```bash
 # 現在のリポジトリに複数のリモートを設定
-git remote add upstream https://github.com/handydigital-dev/sniffly.git
+git remote add upstream https://github.com/Handydigital-dev/sniffly.git
 git remote add origin git@github.com:sh0ma360215/sniffly_win.git
 
 # リモートの確認
 git remote -v
 # origin    git@github.com:sh0ma360215/sniffly_win.git (fetch/push)
-# upstream  https://github.com/handydigital-dev/sniffly.git (fetch/push)
+# upstream  https://github.com/Handydigital-dev/sniffly.git (fetch/push)
 ```
 
 ### 2. 日常的な開発フロー
@@ -52,13 +52,13 @@ git push origin feature/new-feature
 
 #### C. プルリクエストの作成
 
-1. 個人リポジトリ（sh0ma360215/sniffly_win）から組織リポジトリ（handydigital-dev/sniffly）へPRを作成
+1. 個人リポジトリ（sh0ma360215/sniffly_win）から組織リポジトリ（Handydigital-dev/sniffly）へPRを作成
 2. レビュー後、メインリポジトリにマージ
 
 ### 3. ブランチ戦略
 
 ```
-handydigital-dev/sniffly (upstream)
+Handydigital-dev/sniffly (upstream)
 ├── main (安定版)
 ├── develop (開発版)
 └── release/* (リリース準備)
@@ -106,7 +106,7 @@ git commit -m "fix: 重要なバグを修正"
 # 個人リポジトリにプッシュ
 git push origin hotfix/critical-bug
 
-# GitHub上でPRを作成 (sh0ma360215/sniffly_win → handydigital-dev/sniffly)
+# GitHub上でPRを作成 (sh0ma360215/sniffly_win → Handydigital-dev/sniffly)
 ```
 
 #### シナリオ2: 長期的な機能開発
@@ -145,7 +145,7 @@ Host github-work
 
 # リモートURLの設定
 git remote set-url origin git@github-personal:sh0ma360215/sniffly_win.git
-git remote set-url upstream git@github-work:handydigital-dev/sniffly.git
+git remote set-url upstream git@github-work:Handydigital-dev/sniffly.git
 ```
 
 ### 7. トラブルシューティング
